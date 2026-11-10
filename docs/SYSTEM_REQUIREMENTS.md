@@ -93,3 +93,4 @@ The system implements the standard higher education letter grading and 4.00 GPA 
 - **NFR-2 (Reliability & Persistence):** Zero-loss grade persistence with PostgreSQL / Supabase, backed by local offline synchronization for uninterrupted instructor data entry.
 - **NFR-3 (Data Integrity & Validation):** Strict server-side and client-side validation ensuring no impossible scores ($<0$ or $>100$) can be persisted.
 - **NFR-4 (Security & Access Control):** Row Level Security (RLS) enforcement at the database layer ensuring users only view or mutate authorized course records.
+

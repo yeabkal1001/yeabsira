@@ -65,3 +65,4 @@ export interface DashboardMetrics {
   passingRate: number;
   pendingSubmissions: number;
 }
+

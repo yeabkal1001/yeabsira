@@ -151,3 +151,4 @@ CREATE POLICY "Allow public read access for grades" ON public.grades FOR SELECT 
 
 -- Allow authenticated instructors to insert and update grades
 CREATE POLICY "Allow write for authenticated users" ON public.grades FOR ALL USING (true);
+

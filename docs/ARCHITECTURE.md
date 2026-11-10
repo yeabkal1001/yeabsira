@@ -76,3 +76,4 @@ To ensure strict consistency between the presentation tier and database:
 To accommodate development without requiring instant external credentials, the application implements an adaptive data layer:
 - **Connected Mode:** Directly queries and writes to Supabase via `@supabase/supabase-js`.
 - **Hybrid / Demo Mode:** When environment variables `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` are pending configuration, the application utilizes a persistent local browser storage provider populated with realistic BITS College academic seed data, providing an immediate working system out-of-the-box.
+

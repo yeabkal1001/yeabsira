@@ -137,3 +137,4 @@ export function calculateDistribution(records: GradeRecord[]): GradeDistribution
 export function formatGpa(gpa: number): string {
   return (gpa || 0).toFixed(2);
 }
+
